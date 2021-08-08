@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(233, 77, 168);
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    background-color: #5C57A4;
+    padding: 15px;
+    font-size: 20px;
+  
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+li{
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+}
+
+.logo{
+    float: left;
+    color: white;
+}
+
+@media screen and (max-width:500px){
+    body{
+      background-color: lawngreen;
+    }
+  
+    .logo{
+      float: none;
+      text-align: center;
+    }
+    
+    .menu{
+      margin-top: 20px;
+      float: none;
+      text-align: center;
+    
+    }
+    li{
+      margin-bottom:5px ;
+      display: block;
+      align-items: center;
+      float: none;
+      margin-bottom: 5px;
+      padding: 10px;
+      
+    }
+
+
+}
